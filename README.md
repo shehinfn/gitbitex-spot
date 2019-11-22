@@ -16,6 +16,12 @@ https://gitbitex.com:8080/trade/BTC-USDT
 * MySql (**BINLOG[ROW format]** enabled)
 * Kafka
 * Redis
+mysql> SET GLOBAL binlog_format = 'ROW';
+SET GLOBAL sql_mode = 'ALLOW_INVALID_DATES'
+
+
+
+Type a message
 
 ## Install
 ### Server
