@@ -21,6 +21,13 @@ https://gitbitex.com:8080/trade/BTC-USDT
 ### Server
 * git clone https://github.com/gitbitex/gitbitex-spot.git
 * Create database and make sure **BINLOG[ROW format]** enabled
+SET GLOBAL binlog_format = 'ROW';
+SET GLOBAL sql_mode = 'ALLOW_INVALID_DATES'
+
+
+
+Type a message
+
 * Execute ddl.sql
 * Modify conf.json
 * Run go build
