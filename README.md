@@ -22,6 +22,15 @@ https://gitbitex.com:8080/trade/BTC-USDT
 * SET GLOBAL binlog_format = 'ROW';
 * SET GLOBAL sql_mode = 'ALLOW_INVALID_DATES';
 
+### edit /etc/mysql/my.cnf to enable binary logger
+
+[mysqld]
+#log-bin = /var/lib/mysql/test.log
+server_id = 1
+log_bin
+
+
+
 ## Install
 ### Server
 * git clone https://github.com/gitbitex/gitbitex-spot.git
