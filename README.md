@@ -17,10 +17,10 @@ https://gitbitex.com:8080/trade/BTC-USDT
 * Kafka
 * Redis
 
+## Mysql configs 
 
-
-SET GLOBAL binlog_format = 'ROW';
-SET GLOBAL sql_mode = 'ALLOW_INVALID_DATES'
+* SET GLOBAL binlog_format = 'ROW';
+* SET GLOBAL sql_mode = 'ALLOW_INVALID_DATES';
 
 
 
