@@ -24,10 +24,10 @@ https://gitbitex.com:8080/trade/BTC-USDT
 
 ### edit /etc/mysql/my.cnf to enable binary logger
 
-[mysqld]
-#log-bin = /var/lib/mysql/test.log
-server_id = 1
-log_bin
+    [mysqld]
+    #log-bin = /var/lib/mysql/test.log
+    server_id = 1
+    log_bin
 
 
 
