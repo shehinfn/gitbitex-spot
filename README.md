@@ -22,10 +22,6 @@ https://gitbitex.com:8080/trade/BTC-USDT
 * SET GLOBAL binlog_format = 'ROW';
 * SET GLOBAL sql_mode = 'ALLOW_INVALID_DATES';
 
-
-
-Type a message
-
 ## Install
 ### Server
 * git clone https://github.com/gitbitex/gitbitex-spot.git
